@@ -4,7 +4,7 @@ import sklearn
 
 #load the model
 
-with open('Adsales_model.pkl', 'rb') as file:
+with open('AdvSales_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 import streamlit as st
